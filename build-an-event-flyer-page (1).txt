@@ -1,0 +1,57 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img>
+    <h1>Summer Concert</h1>
+    <hr>
+  </header>
+  <main>
+    <section>
+      <h2>Amazing Lineup</h2>
+    </section>
+    <section>
+      <h2>Delicious Food & Drinks</h2>
+    </section>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body{
+ padding: 50px 0px 50px 0px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ margin-right: auto;
+ margin-left: auto;
+ width: 90vw;
+ min-height: calc(100vh - 100px);
+}
+hr{
+  width: 70%;
+}
+section{
+  width: 80%;
+}
+h1{
+  text-align: center;
+}
+
+
+
+** end of styles.css **
+

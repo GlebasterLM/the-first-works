@@ -1,0 +1,75 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Todo-List</h1>
+
+    <ul class="todo-list">
+      <li>
+        <input type="checkbox" id="apples">
+        <label for="apples">Apples</label>
+        <ul class="sub-item">
+            <li><a class="sub-item-link" href="https://www.google.com" target="_blank">Photo Apples</a></li>
+        </ul>
+      </li>
+
+      <li>
+          <input type="checkbox" id="Banana">
+          <label for="Banana">Banana</label>
+          <ul class="sub-item">
+              <li><a class="sub-item-link" href="https://www.google.com" target="_blank">Photo Banana</a></li>
+          </ul>
+      </li>
+
+      <li>
+          <input type="checkbox" id="Orange">
+          <label for="Orange">Orange</label>
+          <ul class="sub-item">
+              <li><a class="sub-item-link" href="https://www.google.com" target="_blank">Photo Orange</a></li>
+          </ul>
+      </li>
+
+      <li>
+          <input type="checkbox" id="Qiwi">
+          <label for="Qiwi">Qiwi</label>
+          <ul class="sub-item">
+              <li><a class="sub-item-link" href="https://www.google.com" target="_blank">Photo Qiwi</a></li>
+          </ul>
+      </li>
+
+      </ul>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+a{
+  text-decoration: none;
+  
+}
+a:hover{
+  color: purple;
+}
+a:active{
+  color:green;
+}
+a:focus{
+  border: solid;  
+}
+a:visited{
+  color: black;
+}
+
+** end of styles.css **
+

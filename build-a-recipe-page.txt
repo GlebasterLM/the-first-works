@@ -1,0 +1,41 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Лабораторный Проект</title>
+   <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Первый Рецепт</h1>
+  <p>Рецепт</p>
+  <h2>Ingredients</h2>
+  <ul>
+    <li>Помидр</li>
+    <li>Огурец</li>
+    <li>Перец</li>
+    <li>Сыр</li>
+  </ul>
+  <h2>Instructions</h2>
+  <ol>
+    <li>Порезать помидор</li>
+    <li>Порезать огурец</li>
+    <li>Порезать перец</li>
+    <li>Натереть сыр</li>
+  </ol>
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Ingredients">
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+** end of index.html **
+

@@ -1,0 +1,32 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+  <main>
+      <h1>Hotel</h1>
+      <img src="https://media.vanityfair.com/photos/5cacb39b474b9022382a8204/master/pass/MCDSHOF_EC025.jpg" alt="Мужчина с тёмными волосами стоит позади дома">
+      <p>Лучший бестселлер нынешнего времени, снятый в 2015 году</p>
+      <p><strong>Movie Rating:</strong>
+      <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span>
+      (10/10)
+      </p>
+      <h2>Cast Members</h2>
+      <ul>
+          <li><strong>Brad Pitt</strong> as Carter</li>
+          <li><strong>Gleb</strong> as Gleb</li>
+          <li><strong>Milana</strong> as Dream</li>         
+      </ul>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+

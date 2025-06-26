@@ -1,0 +1,60 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+<main>
+  <h1>Подборка Видио</h1>
+  <p>Сдесь вы увидите подборку разныъ видио</p>
+  <section>
+    <h2>Air force 1s</h2>
+    <p>Master the art of tying your Air Force 1s with style! Whether you prefer a clean classic look or a trendy loose fit, our guide will help you lace up your kicks like a pro.</p>
+    <iframe src
+      src="https://www.youtube.com/embed/watch?v=0zB5ptWxLyk&t=3s"
+      title="Air force 1s"
+      height="150"
+      width="300">
+    </iframe>
+  </section>
+
+  <section>
+      <h2>Convers All Star</h2>
+      <p>Discover creative ways to lace up your Converse All Stars. From classic criss-cross to unique patterns, make your sneakers stand out.</p>
+      <iframe
+        src="https://www.youtube.com/embed/watch?v=dQw4w9WgXcQ"
+        title="Converse All Star"
+        height="150"
+        width="300">
+      </iframe>
+  </section>
+
+  <section>
+      <h2>Vans Old Skool</h2>
+      <p>Learn how to tie your Vans Old Skool sneakers in various styles. From the classic look to more creative lacing techniques, make your Vans stand out.</p>
+      <iframe
+        src="https://www.youtube.com/embed/watch?v=example"
+        title="Vans Old School"
+        height="150"
+        width="300"
+      ></iframe>
+  </section>
+
+
+
+
+
+
+</main>
+
+</body>
+
+</html>
+
+** end of index.html **
+

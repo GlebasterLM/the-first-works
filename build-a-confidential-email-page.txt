@@ -1,0 +1,61 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidential Email</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main id="email">
+    <div id="confidential">CONFIDENTIAL</div>
+    <div id="top-secret">TOP SECRET</div>
+    <p>
+      <span class="blurred">СОВЕРШЕННО</span>
+    </p>
+    <p>
+      <span class="blurred">СЕКРЕТНО</span>
+    </p>
+    <p>
+      <span class="blurred">ДЛЯ ОПРЕДЕЛЁННЫХ ГРУПП ЛИЦ</span>
+    </p>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#email{
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+  box-sizing: border-box;
+}
+#confidential{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5px;
+  border: solid;
+  transform: rotate(4deg)
+}
+#top-secret{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5px;
+  border: solid;
+  transform: rotate(-4deg)
+}
+.blurred{
+  filter: blur(3px);
+}
+
+** end of styles.css **
+
